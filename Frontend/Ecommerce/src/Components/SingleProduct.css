@@ -1,0 +1,24 @@
+.singleProductImg {
+  width: 350px;
+  margin: 0 auto;
+}
+.single-product-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.message {
+  color: red;
+  margin-top: 10px;
+}
+
+.singleButton {
+  background-color: #ffad33;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: 630;
+}
+
+.singleButton:hover {
+  background-color: #ffad33;
+}

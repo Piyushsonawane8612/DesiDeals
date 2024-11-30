@@ -1,0 +1,14 @@
+.btnCart {
+  background-color: #ffad33;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: 630;
+}
+
+.btnCart:hover {
+  background-color: #ffad33;
+}
+
+.quantity-controls .btn {
+  margin: 0 5px;
+}

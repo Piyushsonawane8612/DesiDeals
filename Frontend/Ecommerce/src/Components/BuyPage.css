@@ -1,0 +1,68 @@
+.tableHeadlineBuy {
+  border: none;
+  padding: 40px 0px !important;
+  vertical-align: middle;
+  background-color: #f8f3ec !important;
+}
+
+.tdBuy {
+  vertical-align: middle;
+  background-color: #f8f3ec !important;
+}
+
+.btnBack {
+  background-color: #ffad33;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: 630;
+  float: right;
+}
+
+.btnBack:hover {
+  background-color: #ffad33;
+}
+
+.btnPurches {
+  background-color: #ffad33;
+  font-size: 17px;
+  font-weight: 630;
+  width: 100%;
+}
+
+.btnPurches:hover {
+  background-color: #ffad33;
+}
+
+.card {
+  height: auto;
+}
+
+.DotedLine {
+  border-top: 2px dashed #252323;
+}
+
+.BuyImage {
+  width: 70px;
+}
+
+.no-bottom-border {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.leftSideBackground,
+.rightSideBackground {
+  background-color: #f8f3ec !important;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .rightSideBackground {
+    padding: 0px;
+    margin-bottom: 20px !important;
+  }
+}

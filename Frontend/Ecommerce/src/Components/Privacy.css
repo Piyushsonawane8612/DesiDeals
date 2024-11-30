@@ -1,0 +1,24 @@
+.backgroundImgContainer {
+  background-image: url("../assets/Images/PrivacyPolicy.jpg");
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+.cum {
+  position: absolute;
+  left: 43%;
+  top: 50%;
+}
+
+@media (max-width: 768px) {
+  .backgroundImgContainer {
+    height: 240px;
+  }
+  .cum {
+    position: absolute;
+    left: 35%;
+    top: 33%;
+  }
+}

@@ -1,0 +1,59 @@
+.navbar-bg {
+  background-color: #36454f !important;
+}
+
+.nav-item .nav-link {
+  font-size: 19px !important;
+  text-transform: capitalize !important;
+  color: #fffffa;
+}
+
+.nav-item .nav-link.active {
+  color: #ffad33;
+}
+
+.cartIcon {
+  width: 30px;
+  height: 30px;
+  color: #fffffa;
+}
+
+.navbar-toggler {
+  border-color: #fffffa !important;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.logo {
+  width: 120px;
+  height: 50px;
+}
+
+.container-icons {
+  align-items: center;
+}
+
+.search-form {
+  flex-grow: 1;
+}
+
+.search-icon {
+  background-color: #ffad33;
+}
+
+.bgCart {
+  background-color: #0997f6 !important;
+  color: #fffffa;
+}
+@media (max-width: 600px) {
+  .search-form {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .container-icons {
+    align-items: flex-start;
+  }
+}

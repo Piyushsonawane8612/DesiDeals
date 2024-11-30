@@ -1,0 +1,137 @@
+/* General Card Styling */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-content {
+  flex-grow: 1; /* Allows this part to take up remaining space */
+}
+
+.card-footer {
+  padding: 10px;
+  background-color: #fff;
+  border-top: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card-Price {
+  font-size: 22px;
+}
+
+.btnBackground {
+  background-color: #ffad33;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 630;
+}
+
+.btnBackground:hover {
+  background-color: #ffad33;
+}
+
+.btnBackgroundMore {
+  background-color: #0997f6;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 630;
+}
+
+.btnBackgroundMore:hover {
+  background-color: #0997f6;
+}
+
+.text-center {
+  margin-bottom: 30px;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.rating-number {
+  display: inline-block;
+  padding: 2px 8px;
+  background-color: #0997f6;
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+/* Filter Container Styling */
+.filter-container {
+  display: flex;
+  align-items: center;
+}
+
+.FilterIcon {
+  font-size: 30px;
+}
+
+.filter-container h5 {
+  margin: 0;
+  margin-right: 8px;
+}
+
+/* Input Field Styling */
+.inputField {
+  position: relative;
+}
+
+.inputField input[type="text"],
+.inputField input[type="number"] {
+  padding-right: 40px;
+}
+
+.input-icon-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffad33;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.searchicon {
+  font-size: 20px;
+}

@@ -1,0 +1,91 @@
+.bgColor {
+  background-color: #101314;
+  color: #fffffa;
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.company-info,
+.company-info .quick-links,
+.newsletter-signup,
+.social-media {
+  flex: 1 1 200px;
+  margin: 16px;
+}
+
+.company-info p {
+  color: #fffffa;
+}
+
+.links-media .icon {
+  font-size: 25px;
+  cursor: pointer;
+  color: #fffffa;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.footerText {
+  margin: 0;
+}
+
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin: 8px 0;
+}
+
+.quick-links a {
+  color: #fffffa;
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-signup form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter-signup input {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter-signup button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffad33;
+  color: #fffffa;
+  cursor: pointer;
+}
+
+.newsletter-signup button:hover {
+  background-color: #ff4500;
+}
+
+.footerTextBg {
+  background-color: #36454f;
+  padding: 10px;
+}
+
+.footerText {
+  color: #fffffa;
+  text-align: center;
+}

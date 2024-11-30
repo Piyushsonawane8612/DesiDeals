@@ -1,0 +1,57 @@
+.RightSideBackground {
+  background-color: #f8f3ec;
+}
+
+.HeadlingCheckOut {
+  font-size: 37px;
+  color: #626672;
+}
+.tableHeadlineCheckOut {
+  border: none;
+  padding: 40px 0px 15px 6px !important;
+  vertical-align: middle;
+  background-color: #f8f3ec !important;
+  color: #787878 !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+.tdBuy {
+  vertical-align: middle;
+  background-color: #f8f3ec !important;
+  color: #414141;
+  border-right: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.no-bottom-border tbody tr:not(:last-child) {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.TotalText {
+  color: #787878 !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btnNext,
+.btnBack {
+  background-color: #ffad33;
+  padding: 5px 40px;
+  font-size: 20px;
+  font-weight: 630;
+  border: none;
+}
+
+.btnNext:hover,
+.btnBack:hover {
+  background-color: #ffad33;
+}

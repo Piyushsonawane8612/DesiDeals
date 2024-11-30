@@ -1,0 +1,95 @@
+.backgroundColorContainer {
+  background-color: rgb(220, 229, 229);
+}
+
+/* Carousel section */
+.imageCarousel {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.custom-control-prev,
+.custom-control-next {
+  top: calc(0% - 200px);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Card Section */
+.CardContainer {
+  margin-top: -250px;
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+  grid-template-rows: auto;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.card {
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cardImgTop {
+  width: 100%;
+  height: 336px;
+  object-fit: contain;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-link {
+  background-color: #ffad33;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 630;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  /* Carousel section */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .custom-control-prev,
+  .custom-control-next {
+    top: calc(50% - 20px);
+  }
+
+  .CardContainer {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    margin-top: 0px;
+  }
+  .card {
+    margin: 0px;
+    height: 100%;
+  }
+  .cardImgTop {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    padding: 5px;
+  }
+}

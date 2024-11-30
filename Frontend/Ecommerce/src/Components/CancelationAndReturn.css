@@ -1,0 +1,93 @@
+.backgroundImgContainerReturn {
+  background-image: url("https://www.lloydlawcollege.edu.in/images/LAW/blog_img/ecommerce-refund-and-cancellation-policy.webp");
+  height: 470px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.backgroundImgContainerReturn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.cum {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.sectionImage {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.contentContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .backgroundImgContainerReturn {
+    height: 200px;
+  }
+  .cum {
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -33%);
+  }
+
+  .contentContainer {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p,
+  li {
+    font-size: 14px;
+  }
+
+  .sectionImage {
+    width: 100%;
+  }
+}
